@@ -1,0 +1,11 @@
+<h4>String Interpolation</h4>
+<span>I frutti che vengono usati per fare una torta di mele sono le {{word}}</span>
+
+<h4>Property Binding</h4>
+<span [class] = "span_style">Serie di numeri in italic: 4, 15, 23, 75</span>
+
+<h4>Event Binding</h4>
+<span><button (click) = "onClickUp()">Incrementa</button> - <button (click) = "onClickDown()">Decrementa</button> :: <i>{{variabile}}</i></span>
+
+<h4> Two-way Binding</h4>
+<input type="range" min="0" max="100" step="0.5" length="600px" [(ngModel)] = "rangeValue" > <i>{{rangeValue}}</i>
